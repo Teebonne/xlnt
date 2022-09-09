@@ -58,7 +58,7 @@ struct cell_impl
     bool is_merged_;
     bool phonetics_visible_;
 
-    rich_text value_text_;
+    optional<rich_text> value_text_;
     double value_numeric_;
 
     optional<std::string> formula_;
